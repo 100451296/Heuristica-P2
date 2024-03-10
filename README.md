@@ -1,5 +1,22 @@
-# Notas
+# README
 
-- El script se desarrollado y testado con Python 3.10.12. No es compatible con versiones a la 3.10. Dado que en el enunciado no se especifica lenguaje ni versión hemos optado por la 3.10 para benificiarnos de metodos que reducen la complejidad a la hora de mantener la lista ABIERTA ordenada.
+## Descripción
 
-- El script ASTAR-calls.sh debe ejecutarse desde la raiz del proyecto para que resuelva la rutas correctamente.
+Este script `ASTARTraslados.py` implementa el algoritmo A* para resolver un problema de traslados. Proporciona varias opciones para personalizar la ejecución del algoritmo y obtener diferentes resultados.
+
+## Uso
+
+Para ejecutar el script, utiliza el siguiente comando:
+
+```python3 ASTARTraslados.py [opciones]```
+
+## Opciones
+- `-h`, `--help`: Muestra un mensaje de ayuda y sale.
+- `--file FILE`, `-f FILE`: Especifica el archivo de entrada.
+- `--mode MODE`, `-m MODE`: Especifica el modo de algoritmo.
+- `--verbose`, `-v`: Activa el modo verbose para obtener información detallada durante la ejecución.
+- `--check`, `-c`: Realiza una verificación de consistencia de la heurística.
+- `--admissibility`, `-a`: Realiza una comprobación de la admisibilidad de la heurística.
+- `--result`, `-r`: Reconstruye el camino si encuentra una solución.
+
+
