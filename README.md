@@ -17,6 +17,11 @@ Para ejecutar el script, utiliza el siguiente comando:
 - `--verbose`, `-v`: Activa el modo verbose para obtener información detallada durante la ejecución.
 - `--check`, `-c`: Realiza una verificación de consistencia de la heurística.
 - `--admissibility`, `-a`: Realiza una comprobación de la admisibilidad de la heurística.
-- `--result`, `-r`: Reconstruye el camino si encuentra una solución.
+- `--result`, `-r`: Reconstruye el camino si encuentra una solucin.
+
+## Requisitos
+
+Este script requiere Python versión 3.10.12 o superior para ejecutarse correctamente. Asegúrate de tener instalada esta versión de Python antes de intentar ejecutar el script.
+
 
 
